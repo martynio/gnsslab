@@ -1,0 +1,21 @@
+# Colab and local runtime artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated plots, KML, reports and downloaded workshop archives
+satellite_orbits/
+outputs/
+orbit_workshop_inputs*.zip
+satellite_orbit_outputs.zip
+ground_tracks.png
+velocity_timeseries.png
+orbit_tracks_ecef.kml
+orbit_animation.kml
+orbit_report.txt
+gp_*.json
